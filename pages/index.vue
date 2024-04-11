@@ -11,5 +11,11 @@ import Hero from "~/components/hero.vue";
 import Socials from "~/components/socials.vue";
 import Events from "~/components/events.vue";
 
+const description = "Découvrez Karen, offrant une gamme complète de services de soutien à la naissance et au post-partum. Explorez nos événements enrichissants et rejoignez notre communauté bienveillante. Suivez-nous sur les réseaux sociaux pour rester connecté(e) et inspiré(e) dans votre parcours de parentalité.";
+const title = "Karen Accompagnement Sacré";
 
+useSeoMeta({
+  description,
+  title
+})
 </script>
