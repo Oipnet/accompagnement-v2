@@ -24,7 +24,6 @@
               <nuxt-link to="/evenements" class="text-secondary mb-4">Evènements</nuxt-link>
               <nuxt-link to="/services" class="text-secondary mb-4">Services</nuxt-link>
               <nuxt-link to="/tarifs" class="text-secondary mb-4">Tarifs</nuxt-link>
-              <nuxt-link to="/contact" class="text-secondary mb-4">Me contacter</nuxt-link>
             </li>
           </ul>
         </div>
@@ -33,6 +32,7 @@
           <UDivider></UDivider>
           <ul class="text-center italic underline">
             <li class="flex flex-col">
+              <nuxt-link to="/contact" class="text-secondary mb-4">Me contacter</nuxt-link>
               <nuxt-link to="/sitemap.xml" class="text-secondary mb-4 mt-2">Plan du site</nuxt-link>
             </li>
           </ul>

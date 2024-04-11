@@ -22,7 +22,7 @@
         Depuis toujours, j’ai des perceptions extra-sensorielles et j'ai appris à les utiliser pour accompagner les âmes qui en ont besoin, notamment lors de notre entrée ou sortie de ce monde.
       </p>
       <template #footer>
-        <UButton variant="outline" color="primary" to="/contact">En savoir plus</UButton>
+        <UButton variant="outline" color="primary" to="/qui-suis-je">En savoir plus</UButton>
       </template>
     </UCard>
     <nuxt-img
