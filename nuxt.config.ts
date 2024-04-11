@@ -21,5 +21,5 @@ export default defineNuxtConfig({
       'Dancing Script': [600],
       'Roboto': true,
     }
-  },
+  }
 })

@@ -33,7 +33,7 @@
           <ul class="text-center italic underline">
             <li class="flex flex-col">
               <nuxt-link to="/contact" class="text-secondary mb-4">Me contacter</nuxt-link>
-              <nuxt-link to="/sitemap.xml" class="text-secondary mb-4 mt-2">Plan du site</nuxt-link>
+              <a href="/sitemap.xml" class="text-secondary mb-4 mt-2">Plan du site</a>
             </li>
           </ul>
         </div>
