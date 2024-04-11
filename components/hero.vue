@@ -28,7 +28,7 @@
     <nuxt-img
         src="/images/karen.webp"
         alt="Karen"
-        class="sm:rounded-full w-full sm:h-[250px] sm:w-[250px] object-cover shadow-lg m-auto hover:scale-105 transition ease-in-out"
+        class="h-[300px] sm:rounded-full w-full sm:h-[250px] sm:w-[250px] object-cover shadow-lg m-auto hover:scale-105 transition ease-in-out"
     />
   </section>
 </template>

@@ -12,7 +12,7 @@
       target: '_blank'
     }
   })">
-    <nuxt-img :src="social.icon" :alt="social.name" width="64px" height="64px"></nuxt-img>
+    <nuxt-img :src="social.icon" :alt="social.name" width="64px" height="64px" loading="lazy"></nuxt-img>
     <div class="flex flex-col ml-2">
       <nuxt-link :to="social.url" target="_blank" class="text-right">{{ social.name }}</nuxt-link>
       <span class="text-right text-xs text-secondary">{{ social.followers }}</span>
