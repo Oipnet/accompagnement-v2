@@ -9,7 +9,7 @@ import {useRouter} from "vue-router";
 
 <template>
   <div class="p-6 w-full sm:w-1/4 flex flex-col hover:scale-105 hover:cursor-pointer transition ease-in-out" @click="router.push(url)">
-    <nuxt-img :src="service.image" alt="" loading="lazy" />
+    <nuxt-img :src="service.image" alt="" loading="lazy" preload />
     <nuxt-link :to="url" class="text-bold text-center text-secondary">{{ service.name }}</nuxt-link>
   </div>
 </template>
