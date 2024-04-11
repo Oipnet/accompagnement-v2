@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxt/ui', "@nuxt/image", '@nuxtjs/google-fonts'],
+  modules: ['@nuxt/ui', "@nuxt/image", '@nuxtjs/google-fonts', '@nuxtjs/sitemap', '@nuxtjs/robots'],
   googleFonts: {
     families: {
       'Dancing Script': [600],
