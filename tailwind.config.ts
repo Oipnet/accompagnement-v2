@@ -17,6 +17,10 @@ export default <Partial<Config>> {
                     '900': '#613a4f',
                     '950': '#391e2d',
                 },
+            },
+            fontFamily: {
+                'dancing-script': ['Dancing Script'],
+                'roboto': ['Roboto', 'sans-serif'],
             }
         }
     }

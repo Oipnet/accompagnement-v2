@@ -6,10 +6,24 @@
 </script>
 
 <template>
-  <h2 class="text-center text-2xl text-bold text-primary mb-8">Réseaux sociaux</h2>
-  <div class="flex flex-row gap-4">
-    <social-item v-for="social in socials" :key="social.id" :social="social" />
-  </div>
+  <UCard
+      :ui="{
+          divide: 'divide-white',
+          ring: 'ring-0',
+          shadow: 'shadow-none',
+          base: 'w-2/3',
+          footer: {
+            base: 'flex justify-center'
+          }
+      }">
+    <h2 class="text-center text-2xl text-bold text-primary mb-8 font-dancing-script">Réseaux sociaux</h2>
+    <div class="flex flex-row gap-4">
+      <social-item v-for="social in socials" :key="social.id" :social="social" />
+    </div>
+    <template #footer>
+      <UButton variant="outline" color="primary" to="/contact" :ui="{ base: 'm-auto'}">Me contacter</UButton>
+    </template>
+  </UCard>
 </template>
 
 <style scoped>

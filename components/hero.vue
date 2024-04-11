@@ -14,7 +14,7 @@
       }
     }">
       <template #header>
-        <h1 class="text-2xl text-primary uppercase text-center">Karen Accompagnement Sacre</h1>
+        <h1 class="text-3xl text-primary uppercase text-center font-dancing-script">Karen Accompagnement Sacre</h1>
       </template>
       <p class="text-center text-secondary">
         Moi, c'est Karen, 34 ans, je vis dans la région bordelaise avec mon mari (mon pilier) et mes 3 enfants.<br class="mb-4" />
