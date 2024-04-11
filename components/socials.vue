@@ -11,7 +11,7 @@
           divide: 'divide-white',
           ring: 'ring-0',
           shadow: 'shadow-none',
-          base: 'w-2/3',
+          base: 'w-full sm:w-2/3',
           footer: {
             base: 'flex justify-center'
           }

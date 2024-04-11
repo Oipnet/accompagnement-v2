@@ -1,7 +1,7 @@
 <template>
   <Hero />
   <Services />
-  <section class="flex flex-row mt-[64px] gap-4">
+  <section class="flex flex-col sm:flex-row mt-[64px] gap-4">
     <Events />
     <Socials />
   </section>

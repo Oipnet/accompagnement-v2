@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <div class="flex flex-row w-1/2 hover:scale-105 hover:cursor-pointer transition ease-in-out" @click.prevent="navigateTo(social.url, {
+  <div class="flex flex-row w-full sm:w-1/2 hover:scale-105 hover:cursor-pointer transition ease-in-out" @click.prevent="navigateTo(social.url, {
     open: {
       target: '_blank'
     }

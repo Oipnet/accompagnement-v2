@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <section class="flex flex-row">
+  <section class="flex sm:flex-row flex-col">
     <service-item v-for="service in services" :key="service.slug" :service="service" />
   </section>
 </template>

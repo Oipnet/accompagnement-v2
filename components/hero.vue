@@ -3,12 +3,12 @@
 </script>
 
 <template>
-  <section class="flex flex-row mt-[64px]">
+  <section class="flex sm:flex-row mt-[64px] flex-col-reverse">
     <UCard :ui="{
       divide: 'divide-white',
       ring: 'ring-0',
       shadow: 'shadow-none',
-      base: 'w-2/3',
+      base: 'sm:w-2/3 w-full',
       footer: {
         base: 'flex justify-center',
       }
@@ -28,7 +28,7 @@
     <nuxt-img
         src="/images/karen.webp"
         alt="Karen"
-        class="rounded-full h-[250px] w-[250px] object-cover shadow-lg m-auto hover:scale-105 transition ease-in-out"
+        class="sm:rounded-full w-full sm:h-[250px] sm:w-[250px] object-cover shadow-lg m-auto hover:scale-105 transition ease-in-out"
     />
   </section>
 </template>
