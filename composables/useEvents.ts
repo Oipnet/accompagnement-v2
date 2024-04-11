@@ -8,7 +8,7 @@ export const useEvents = () => {
 
             Le nombre de place est limité à 10 afin que chaque participante ait un espace de paroles suffisant.
         `,
-        'image':'/images/events/tente_rouge.webp',
+        'image':'/images/events/mini/tente_rouge.webp',
         'slug':'cercle-de-femmes-tente-rouge',
         date: '01/04/2024'
     }, {
@@ -22,7 +22,7 @@ export const useEvents = () => {
 
             Le nombre de place est limité à 8 afin que chaque participante ait un espace de paroles suffisant.
         `,
-        'image':'/images/events/bebe.webp',
+        'image':'/images/events/mini/bebe.webp',
         'slug':'cerle-maman-bebe',
         date: '01/04/2024'
     }]
