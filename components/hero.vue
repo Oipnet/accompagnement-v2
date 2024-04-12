@@ -17,7 +17,7 @@
         <h1 class="text-3xl text-primary uppercase text-center font-dancing-script">Karen Accompagnement Sacre</h1>
       </template>
       <p class="text-center text-secondary">
-        Moi, c'est Karen, 34 ans, je vis dans la région bordelaise avec mon mari (mon pilier) et mes 3 enfants.<br class="mb-4" />
+        Moi, c'est Karen, 36 ans, je vis dans la région bordelaise avec mon mari (mon pilier) et mes 3 enfants.<br class="mb-4" />
 
         Depuis toujours, j’ai des perceptions extra-sensorielles et j'ai appris à les utiliser pour accompagner les âmes qui en ont besoin, notamment lors de notre entrée ou sortie de ce monde.
       </p>

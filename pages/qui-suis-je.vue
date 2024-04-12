@@ -11,7 +11,7 @@
       }
     }">
       <p class="text-center text-secondary">
-        Moi c'est Karen, 34 ans, je vis près de Bordeaux avec mon mari (mon pilier) et mes 3 enfants.<br><br>
+        Moi c'est Karen, 36 ans, je vis près de Bordeaux avec mon mari (mon pilier) et mes 3 enfants.<br><br>
 
         Depuis toujours, j’ai des perceptions extrasensorielles et j'ai appris à les utiliser pour accompagner
         les âmes qui en ont besoin, notamment lors de notre entrée ou sortie de ce monde.<br><br>
