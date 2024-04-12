@@ -38,11 +38,11 @@
     />
   </section>
   <section>
-    <h1 class="flex justify-center text-4xl text-primary font-dancing-script w-full mt-12 mb-10">
+    <h1 class="flex justify-center text-4xl text-center sm:text-right text-primary font-dancing-script w-full mt-12 mb-10">
       Découvrir les valeurs qui m'animent
     </h1>
-    <div class="grid grid-cols-2 place-items-center">
-      <div class="text-center align-middle">
+    <div class="grid grid-cols-1 sm:grid-cols-2 place-items-center">
+      <div class="text-center align-middle mb-4 sm:mb-0">
         <h2 class="text-primary font-dancing-script text-2xl text-center mb-8">Amour</h2>
         <p>
           Pour faire un soin, l'énergie d’amour est importante.<br><br>
@@ -54,7 +54,104 @@
         </p>
       </div>
       <div class="flex justify-center">
-        <nuxt-img src="/images/amour.webp" alt="Coeur" class="h-[600px] w-[400px] rounded-xl" />
+        <nuxt-img src="/images/amour.webp" alt="Coeur" class="w-auto sm:w-[400px] rounded-xl" />
+      </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 place-items-center mt-8">
+      <div class="flex justify-center row-start-2 sm:row-auto">
+        <nuxt-img src="/images/bienveillance.webp" alt="Coeur" class="w-auto sm:w-[400px] rounded-xl" />
+      </div>
+      <div class="text-center align-middle">
+        <h2 class="text-primary font-dancing-script text-2xl text-center mb-8">Bienveillance</h2>
+        <p>
+          La bienveillance est aussi un des piliers pour accompagner les femmes.<br><br>
+
+          On ne peut pas se permettre d’être dans le jugement ou la critique.<br><br>
+
+          On doit pouvoir écouter de façon bienveillante et d’ailleurs mes réponses doivent l’être tout autant.
+          Pour moi, la bienveillance est l’un des piliers les plus importants des thérapeutes.<br><br>
+
+          De même pour la communication, nos réponses doivent rester bienveillantes (quelque soit notre point de vue).<br><br>
+
+          Notre travail n’est pas le choix que fait le patient mais bien de lui montrer le champs des possibles afin qu’il puisse faire son choix/ ou ses choix.
+        </p>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 place-items-center mt-8">
+      <div class="text-center align-middle">
+        <h2 class="text-primary font-dancing-script text-2xl text-center mb-8">Sacré</h2>
+        <p>
+          Pour moi le sacré est aussi une valeur qui a du sens.<br><br>
+
+          Il me permet de moi me retrouver via des petits rituels (d’ancrage ou autre) et d’apporter de la magie
+          dans la vie.<br><br>
+
+          D’avoir confiance en l’univers !<br><br>
+
+          Et c’est aussi ces valeurs de magie et de rituels que je transmet en tant que thérapeute pour que les
+          patient(e)s/ client(e)s croient à nouveau en la vie, à la magie et se retrouvent.<br><br>
+
+          Transmettre le sacré dans les communications, c’est comme transmettre la magie qui m’inspire.
+        </p>
+      </div>
+      <div class="flex justify-center mt-4 sm:mt-0">
+        <nuxt-img src="/images/sacre.webp" alt="Coeur" class="h-[600px] w-auto sm:w-[400px] m-auto rounded-xl" />
+      </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 place-items-center mt-8">
+      <div class="flex justify-center row-start-2 sm:row-auto mt-4 sm:mt-0">
+        <nuxt-img src="/images/harmonie.webp" alt="Coeur" class="w-auto sm:w-[400px] rounded-xl" />
+      </div>
+      <div class="text-center align-middle">
+        <h2 class="text-primary font-dancing-script text-2xl text-center mb-8">Harmonie</h2>
+        <p>
+          L’harmonie, c’est la capacité de comprendre que nous faisons partie d’un grand tout.<br><br>
+
+          C’est aussi le fait d’être alignée à faire ce en quoi je crois et ce qui me fait vibrer.<br><br>
+
+          Et c’est aussi quelque chose que je veux transmettre dans mes soins (l’harmonie avec nous même, l’harmonie
+          avec notre planète et les éléments, l’harmonie avec notre univers…). Si tout le monde faisait ce qui les
+          fait vibrer, les gens seraient en harmonie avec eux mêmes.<br><br>
+
+          En énergétique on ressent bien l’importance de l’harmonisation dans le corps afin de ne pas
+          avoir de coupure et que les choses soient fluides !!!<br><br>
+
+          En harmonisant on retrouve la fluidité.
+        </p>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 place-items-center mt-8">
+      <div class="text-center align-middle">
+        <h2 class="text-primary font-dancing-script text-2xl text-center mb-8">Espoir ou respect/tolérance</h2>
+        <p>
+          Alors ici le choix a été difficile.<br><br>
+
+          Ces 3 valeurs sont assez proches des autres valeurs que j’ai déjà choisies mais avec quelques variances
+          quand même.<br><br>
+
+          Au final je vais choisir le respect.<br><br>
+
+          Le respect est une valeur fondamentale pour l’accompagnement des personnes.<br><br>
+
+          On doit être dans le non-jugement et on doit profondément respecter chaque personne (que ça ait été
+          ses choix de vie, que cela soit dans ses choix actuels ou dans ceux qu’elle va choisir plus tard). On
+          peut amener notre vision, offrir une panoplie de choix mais toujours laisser le libre-arbitre et surtout
+          respecter leur choix.<br><br>
+
+          Mais aussi les accompagner dans leur décision avec respect et bienveillance.<br><br>
+
+          Pour la communication, c’est pareil, le respect est fondamental.<br><br>
+
+          On peut ne pas être en accord, ne pas avoir les mêmes croyances mais on doit le respecter.<br><br>
+
+          On peut amener à voir un point de vue sans jamais forcer.<br><br>
+
+          Le respect est une valeur qui fait sens pour moi que ce soit dans des accompagnements comme dans ma
+          rigueur personnel et elle a même été un des piliers lors de mes années dans l’armée.
+        </p>
+      </div>
+      <div class="flex justify-center mt-4 sm:mt-0">
+        <nuxt-img src="/images/espoir.webp" alt="Coeur" class="h-[600px] w-auto sm:w-[400px] rounded-xl" />
       </div>
     </div>
   </section>

@@ -5,8 +5,8 @@
       <slot />
     </UContainer>
     <footer class="bg-gray-800 mt-8 text-white">
-      <div class="flex flex-row">
-        <div class="m-8 w-1/3">
+      <div class="flex flex-col">
+        <div class="m-8 w-full sm:w-1/3">
           <h2 class="text-center text-primary font-dancing-script mb-2 text-2xl">Suivez-moi</h2>
           <UDivider></UDivider>
           <div class="flex flex-row gap-4 mt-4 mb-8 justify-around">
@@ -15,7 +15,7 @@
             </nuxt-link>
           </div>
         </div>
-        <div class="m-8 w-1/3">
+        <div class="m-8 w-full sm:w-1/3">
           <h2 class="text-center text-primary font-dancing-script mb-2 text-2xl">Vous et Moi</h2>
           <UDivider></UDivider>
           <ul class="text-center italic underline">
@@ -27,7 +27,7 @@
             </li>
           </ul>
         </div>
-        <div class="m-8 w-1/3">
+        <div class="m-8 w-full sm:w-1/3">
           <h2 class="text-center text-primary font-dancing-script mb-2 text-2xl">Pratique</h2>
           <UDivider></UDivider>
           <ul class="text-center italic underline">
