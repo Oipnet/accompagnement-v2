@@ -1,6 +1,9 @@
 ---
 title: Soins Energétiques
 description: Soins Energétiques
+sitemap:
+  loc: /services/soins-energetiques
+  lastmod: 2024-04-12
 ---
 
 ::content-title

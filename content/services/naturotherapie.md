@@ -1,6 +1,9 @@
 ---
 title: Nathurothérapie
 description: Nathurothérapie
+sitemap:
+  loc: /services/naturotherapie
+  lastmod: 2024-04-12
 ---
 
 ::content-title

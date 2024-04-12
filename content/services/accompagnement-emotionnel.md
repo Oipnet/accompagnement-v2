@@ -1,6 +1,9 @@
 ---
 title: Accompagnement émotionnel
 description: Accompagnement émotionnel
+sitemap:
+  loc: /services/accompagnement-emotionnel
+  lastmod: 2024-04-12
 ---
 
 ::content-title
