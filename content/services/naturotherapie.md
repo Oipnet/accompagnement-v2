@@ -10,7 +10,7 @@ sitemap:
 Nathurothérapie
 ::
 
-::content-container
+::content-service-container
 #description
 Je le vois en complément dans l’accompagnement.<br><br>
 Se réapproprier une alimentation plus saine et dans quelques cas, l’action des plantes (huiles essentiels, fleurs

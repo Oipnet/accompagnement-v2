@@ -10,7 +10,7 @@ sitemap:
 Soins Energétiques
 ::
 
-::content-container
+::content-service-container
 #description
 C’est une réharmonisation énergétique.<br><br>
 
