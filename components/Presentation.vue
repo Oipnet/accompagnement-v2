@@ -3,7 +3,7 @@ const presentation = (await useAsyncData('presentation', () => queryContent('/pr
 </script>
 
 <template>
-  <section class="flex sm:flex-row mt-[64px] flex-col-reverse">
+  <section class="flex sm:flex-row flex-col-reverse">
     <UCard :ui="{
       divide: 'divide-white',
       ring: 'ring-0',
