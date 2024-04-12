@@ -5,7 +5,7 @@
       <slot />
     </UContainer>
     <footer class="bg-gray-800 mt-8 text-white">
-      <div class="flex flex-col">
+      <div class="flex flex-col sm:flex-row">
         <div class="m-8 w-full sm:w-1/3">
           <h2 class="text-center text-primary font-dancing-script mb-2 text-2xl">Suivez-moi</h2>
           <UDivider></UDivider>
