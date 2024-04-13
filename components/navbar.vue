@@ -26,6 +26,11 @@ base: 'm-4'
     </UButton>
     <USlideover v-model="isOpen">
       <div class="p-4 flex-1">
+        <UButton @click="isOpen = !isOpen" variant="outline" :ui="{
+base: 'm-4 position-absolute top-0 left-0'
+    }">
+          X
+        </UButton>
         <ul>
           <li v-for="link in links" class="m-auto text-center">
             <nuxt-link :to="link.to" class="text-primary text-center m-4 inline-block ">{{ link.label }}</nuxt-link>
