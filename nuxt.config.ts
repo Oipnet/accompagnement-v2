@@ -22,7 +22,8 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
     '@nuxt/content',
-    'nuxt-viewport'
+    'nuxt-viewport',
+    'nuxt-purgecss'
   ],
   googleFonts: {
     families: {
