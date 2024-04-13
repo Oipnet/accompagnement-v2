@@ -4,6 +4,11 @@ import {useLinks} from "~/composables/useLinks";
 const viewport = useViewport()
 const links = useLinks()
 const isOpen = ref(false)
+const router = useRouter()
+
+const handleNavigate = (_) => {
+  isOpen.value = false
+}
 </script>
 
 <template>
@@ -33,7 +38,7 @@ base: 'm-4 position-absolute top-0 left-0'
         </UButton>
         <ul>
           <li v-for="link in links" class="m-auto text-center">
-            <nuxt-link :to="link.to" class="text-primary text-center m-4 inline-block ">{{ link.label }}</nuxt-link>
+            <nuxt-link :to="link.to" class="text-primary text-center m-4 inline-block " @click="handleNavigate">{{ link.label }}</nuxt-link>
           </li>
         </ul>
       </div>
