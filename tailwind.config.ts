@@ -1,6 +1,11 @@
 import type { Config } from "tailwindcss";
 
 export default <Partial<Config>> {
+    purge: [
+        './src/**/*.html',
+        './src/**/*.vue',
+        './src/**/*.jsx',
+    ],
     theme: {
         extend: {
             colors: {

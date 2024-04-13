@@ -63,7 +63,7 @@
         base: 'flex flex-col justify-center text-center',
       }}
     ">
-      <p class="ml-32 mr-32">
+      <p>
         Notre Première rencontre par zoom est offerte (pour les forfaits). Pour tout déplacement au delà de 30Km
         de mon domicile, des frais kilométriques pourront être demandés.<br><br>
 
@@ -73,7 +73,7 @@
         Le règlement peut être effectué en plusieurs versements.
       </p>
       <template #footer>
-        <p class="ml-32 mr-32">
+        <p>
           Parlons- en !<br>
           L'argent ne doit pas être un frein à votre accompagnement.
           Je reste à votre écoute pour trouver des solutions qui conviennent à tout le monde.
