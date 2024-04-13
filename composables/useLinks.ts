@@ -3,11 +3,11 @@ import {UHorizontalNavigation} from "#components";
 
 export const useLinks = () => {
     return [
-        [{
+        {
             label: 'Accueil',
             to: '/',
-        }],
-        [{
+        },
+        {
             label: 'Qui suis-je ?',
             to: '/qui-suis-je',
         },
@@ -26,6 +26,6 @@ export const useLinks = () => {
         {
             label: 'Contact',
             to: '/contact',
-        },]
+        },
     ];
 }

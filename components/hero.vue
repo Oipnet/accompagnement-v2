@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="flex sm:flex-row mt-[64px] flex-col-reverse">
+  <section class="flex sm:flex-row md:mt-[64px] flex-col-reverse">
     <UCard :ui="{
       divide: 'divide-white',
       ring: 'ring-0',
@@ -14,7 +14,7 @@
       }
     }">
       <template #header>
-        <h1 class="text-3xl text-primary uppercase text-center font-dancing-script">Karen Accompagnement Sacre</h1>
+        <h1 class="ml-8 md:ml-0 text-2xl md:text-3xl text-primary uppercase text-center font-dancing-script">Karen Accompagnement Sacre</h1>
       </template>
       <p class="text-center text-secondary">
         Moi, c'est Karen, 36 ans, je vis dans la région bordelaise avec mon mari (mon pilier) et mes 3 enfants.<br class="mb-4" />

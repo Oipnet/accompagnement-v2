@@ -21,7 +21,8 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
-    "@nuxt/content"
+    '@nuxt/content',
+    'nuxt-viewport'
   ],
   googleFonts: {
     families: {
