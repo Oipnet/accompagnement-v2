@@ -4,12 +4,12 @@
 
 <template>
   <h1 class="flex justify-end text-4xl text-primary font-dancing-script w-full mt-12 pr-24 mb-24">Tarifs</h1>
-  <section class="grid grid-cols-3 h-auto dark:text-white">
+  <section class="flex flex-row flex-wrap h-auto dark:text-white justify-around">
     <UCard :ui="{
       divide: 'divide-white',
       ring: 'ring-0',
       shadow: 'shadow-none',
-      base: 'w-full dark:text-white',
+      base: 'w-full md:w-1/3 dark:text-white',
       footer: {
         base: 'flex justify-center',
       }}
@@ -25,7 +25,7 @@
       divide: 'divide-white',
       ring: 'ring-0',
       shadow: 'shadow-none',
-      base: 'w-full dark:text-white',
+      base: 'w-full md:w-1/3 dark:text-white',
       footer: {
         base: 'flex justify-center',
       }}
@@ -41,7 +41,7 @@
       divide: 'divide-white',
       ring: 'ring-0',
       shadow: 'shadow-none',
-      base: 'w-full dark:text-white',
+      base: 'w-full md:w-1/3 dark:text-white',
       footer: {
         base: 'flex justify-center',
       }}
@@ -85,7 +85,7 @@
       divide: 'divide-white',
       ring: 'ring-0',
       shadow: 'shadow-none',
-      base: 'w-full dark:text-white',
+      base: 'w-full md:w-1/3 dark:text-white',
       footer: {
         base: 'flex justify-center',
       }}
@@ -101,7 +101,7 @@
       divide: 'divide-white',
       ring: 'ring-0',
       shadow: 'shadow-none',
-      base: 'w-full',
+      base: 'w-full md:w-1/3',
       footer: {
         base: 'flex justify-center',
       }}
