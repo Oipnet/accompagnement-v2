@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import {type InferType, object, string} from "yup";
 
+const toast = useToast()
 const schema = object({
   email: string().email('L\'email n\'est pas valide').required('L\'email est obligatoire'),
   subject: string().required('Le sujet est obligatoire'),
@@ -8,6 +9,8 @@ const schema = object({
 })
 
 const state = reactive({
+  nom: undefined,
+  prenom: undefined,
   email: undefined,
   subject: undefined,
   message: undefined
@@ -23,27 +26,47 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
     to: [{
       email: 'contact@forelse.info'
     }],
-    subject: state.subject,
+    subject: `${state.nom} ${state.prenom} - ${state.subject}`,
     text: state.message
   }
 
-  const { data } = await useFetch('/api/sendgrid', {
-    method: 'POST',
-    body: message
+   await useFetch('/api/sendgrid', {
+     method: 'POST',
+     body: message
   });
+
+  toast.add({
+    color: "green",
+    title: 'Me contacter',
+    description: 'Votre message à été envoyé avec succès'
+  })
+
+  state.prenom = undefined
+  state.nom = undefined
+  state.email = undefined
+  state.subject = undefined
+  state.message = undefined
 }
 
 </script>
 
 <template>
   <UForm :schema="schema" :state="state" @submit="onSubmit">
-    <UFormGroup label="Email" name="email" class="mb-8">
+    <div class="flex flex-row">
+      <UFormGroup label="Nom" name="nom" class="mb-8 w-1/2 pr-4">
+        <UInput v-model="state.nom" />
+      </UFormGroup>
+      <UFormGroup label="Prenom" name="prenom" class="mb-8 w-1/2">
+        <UInput v-model="state.prenom" />
+      </UFormGroup>
+    </div>
+    <UFormGroup label="Email *" name="email" class="mb-8">
       <UInput v-model="state.email" />
     </UFormGroup>
-    <UFormGroup label="Sujet" name="subject" class="mb-8">
+    <UFormGroup label="Sujet *" name="subject" class="mb-8">
       <UInput v-model="state.subject" />
     </UFormGroup>
-    <UFormGroup label="Message" name="message" class="mb-8">
+    <UFormGroup label="Message *" name="message" class="mb-8">
       <UTextarea v-model="state.message" />
     </UFormGroup>
     <UButton block variant="outline" type="submit">
