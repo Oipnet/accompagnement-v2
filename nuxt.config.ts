@@ -23,7 +23,6 @@ export default defineNuxtConfig({
     '@nuxtjs/robots',
     '@nuxt/content',
     'nuxt-viewport',
-    'nuxt-purgecss',
     'nuxt3-leaflet',
   ],
   googleFonts: {
