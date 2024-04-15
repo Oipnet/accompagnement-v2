@@ -3,11 +3,11 @@
 
   const router = useRouter()
 
-  const { social } = defineProps(['social']);
+  const { social } = defineProps(['social', 'isLite']);
 </script>
 
 <template>
-  <div class="flex flex-row w-full sm:w-1/2 hover:scale-105 hover:cursor-pointer transition ease-in-out" @click.prevent="navigateTo(social.url, {
+  <div v-if="!isLite" class="flex flex-row w-full sm:w-1/2 hover:scale-105 hover:cursor-pointer transition ease-in-out"  @click.prevent="navigateTo(social.url, {
     open: {
       target: '_blank'
     }
@@ -18,6 +18,7 @@
       <span class="text-right text-xs text-secondary">{{ social.followers }}</span>
     </div>
   </div>
+  <nuxt-img v-if="isLite" class="inline-block mr-4" :src="social.icon" :alt="social.name" width="24px" height="24px" loading="lazy" preload></nuxt-img>
 </template>
 
 <style scoped>
