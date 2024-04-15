@@ -13,11 +13,7 @@
               base: 'pl-8 pr-8'
             }
           }"></UDivider>
-          <div class="flex flex-row gap-4 mt-4 mb-8 justify-around">
-            <nuxt-link v-for="social in socials" :key="social.id" :to="social.url" target="_blank">
-              <nuxt-img :src="social.icon" :alt="social.name" width="32px" height="32px" loading="lazy" preload></nuxt-img>
-            </nuxt-link>
-          </div>
+          <socials-lite />
         </div>
         <div class="w-full sm:w-1/3">
           <h2 class="text-center text-primary font-dancing-script mb-2 text-2xl">Vous et Moi</h2>

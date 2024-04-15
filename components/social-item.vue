@@ -18,7 +18,7 @@
       <span class="text-right text-xs text-secondary">{{ social.followers }}</span>
     </div>
   </div>
-  <nuxt-img v-if="isLite" class="inline-block mr-4" :src="social.icon" :alt="social.name" width="24px" height="24px" loading="lazy" preload></nuxt-img>
+  <nuxt-img v-if="isLite" class="inline-block mr-4 hover:cursor-pointer" :src="social.icon" :alt="social.name" width="24px" height="24px" loading="lazy" preload></nuxt-img>
 </template>
 
 <style scoped>

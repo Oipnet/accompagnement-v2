@@ -18,7 +18,7 @@
       }">
     <h2 class="text-center text-2xl text-bold text-primary mb-8 font-dancing-script">Réseaux sociaux</h2>
     <div class="flex flex-col sm:flex-row gap-8 sm:gap-2">
-      <social-item v-for="social in socials" :key="social.id" :social="social" />
+      <social-item v-for="social in socials" :key="social.id" :social="social" :is-lite="false" />
     </div>
     <template #footer>
       <UButton variant="outline" color="primary" to="/contact" :ui="{ base: 'm-auto'}">Me contacter</UButton>
