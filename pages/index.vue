@@ -18,7 +18,11 @@ useSeoMeta({
   description,
   title,
   'og:title': title,
+  'twitter:title': title,
   'og:description': description,
+  'twitter:description': description,
   'og:type': 'website',
+  'twitter:card': 'website',
+  'twitter:image': '/images/karen.webp',
 })
 </script>
