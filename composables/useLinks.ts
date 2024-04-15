@@ -1,6 +1,3 @@
-import type {HorizontalNavigationLink} from "#ui/types";
-import {UHorizontalNavigation} from "#components";
-
 export const useLinks = () => {
     return [
         {
