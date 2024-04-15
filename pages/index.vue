@@ -16,6 +16,9 @@ const title = "Karen Accompagnement Sacré";
 
 useSeoMeta({
   description,
-  title
+  title,
+  'og:title': title,
+  'og:description': description,
+  'og:type': 'website',
 })
 </script>

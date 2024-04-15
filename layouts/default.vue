@@ -53,4 +53,8 @@ useHead({
     },
   ],
 })
+
+useSeoMeta({
+  'og:site_name': 'Karen Accompagnement Sacré',
+})
 </script>

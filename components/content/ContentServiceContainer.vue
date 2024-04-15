@@ -11,7 +11,7 @@
       <slot name="illustration" />
     </div>
   </div>
-  <div class="flew flew-row w-full text-center">
+  <div class="flew flew-row w-full text-center mb-4">
     <UButton variant="outline" color="primary" to="/tarifs">En savoir plus</UButton>
   </div>
 </template>
