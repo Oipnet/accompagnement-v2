@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <h1 class="flex justify-end text-4xl text-primary font-dancing-script w-full mt-12 pr-24 mb-24">Tarifs</h1>
+  <page-title title="Tarifs" />
   <section class="flex flex-row flex-wrap h-auto dark:text-white justify-around">
     <UCard :ui="{
       divide: 'divide-white',

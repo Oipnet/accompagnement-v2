@@ -1,5 +1,5 @@
 <template>
-  <h1 class="flex justify-end text-4xl text-primary font-dancing-script w-full mt-12 pr-24 mb-24">Qui suis je</h1>
+  <page-title title="Qui suis je" />
   <presentation />
   <section>
     <valeurs />

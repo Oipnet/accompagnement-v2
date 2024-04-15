@@ -8,7 +8,7 @@ const services = useServices();
 </script>
 
 <template>
-  <h1 class="flex justify-end text-4xl text-primary font-dancing-script w-full mt-12 pr-24">Services</h1>
+  <page-title title="Services" />
   <div class="grid grid-cols-2">
     <div
         v-for="service in services"

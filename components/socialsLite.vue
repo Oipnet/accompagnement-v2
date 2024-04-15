@@ -6,7 +6,7 @@
 </script>
 
 <template>
-  <div class="flex flex-col justify-center mt-4 sm:flex-row gap-8 sm:gap-2">
+  <div class="flex flex-row justify-center mt-4 mb-4 sm:flex-row gap-8 sm:gap-2">
     <social-item v-for="social in socials" :key="social.id" :social="social" :is-lite="true"/>
   </div>
 </template>
