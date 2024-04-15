@@ -22,7 +22,7 @@ const handleNavigate = (_) => {
   <div v-if="! viewport.isGreaterThan('mobileWide')">
     <UButton @click="isOpen = !isOpen" variant="outline" :ui="{
 base: 'm-4'
-    }">
+    }" aria-label="Ouvrir le menu">
       <div class="space-y-2">
         <div class="w-8 h-0.5 bg-primary"></div>
         <div class="w-8 h-0.5 bg-primary"></div>
@@ -31,7 +31,7 @@ base: 'm-4'
     </UButton>
     <USlideover v-model="isOpen">
       <div class="p-4 flex-1">
-        <UButton @click="isOpen = !isOpen" variant="outline" :ui="{
+        <UButton @click="isOpen = !isOpen" variant="outline" aria-label="Fermer le menu" :ui="{
 base: 'm-4 position-absolute top-0 left-0'
     }">
           X

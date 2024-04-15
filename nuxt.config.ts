@@ -23,12 +23,17 @@ export default defineNuxtConfig({
     '@nuxtjs/robots',
     '@nuxt/content',
     'nuxt-viewport',
-    'nuxt-purgecss'
+    'nuxt-purgecss',
+    'nuxt3-leaflet',
   ],
   googleFonts: {
     families: {
       'Dancing Script': [600],
       'Roboto': true,
     }
+  },
+  runtimeConfig: {
+    sendApiKey: process.env.SEND_API_KEY,
+    senderEmail: process.env.SENDER_EMAIL,
   }
 })

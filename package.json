@@ -25,6 +25,8 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "nuxt-purgecss": "^2.0.0",
-    "nuxt-viewport": "^2.1.4"
+    "nuxt-viewport": "^2.1.4",
+    "nuxt3-leaflet": "^1.0.12",
+    "yup": "^1.4.0"
   }
 }
