@@ -15,9 +15,13 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  colorMode: {
+    preference: 'light'
+  },
   modules: [
     '@nuxt/ui',
     "@nuxt/image",
+    '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
